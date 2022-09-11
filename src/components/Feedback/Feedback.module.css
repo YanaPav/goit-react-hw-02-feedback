@@ -1,0 +1,31 @@
+.btn {
+    padding: 8px 12px; 
+    border-radius: 4px;
+    border: none;
+    background-color: #487845;
+    color: white;
+    cursor: pointer;
+    transition: background-color 250ms linear;
+}
+
+.btn:hover {
+    background-color: #265858;
+}
+
+.btnBlock {
+    display: flex;
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.voteVariant {
+    line-height: 1.5;
+}
+
+.voteVariant span {
+    margin-left: 5px;
+}
